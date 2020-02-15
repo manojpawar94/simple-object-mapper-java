@@ -24,7 +24,7 @@ public class PersonDto {
 }
 ```
 
-### How get `PersonDto` object instance from `Person` object instance?
+### How to get `PersonDto` object instance from `Person` object instance?
 ```
 // mapping Person object to the PersonDto
 Person person = getPerson();
@@ -32,7 +32,7 @@ SMapper jMapper = new SMapper();
 PersonDto personDto = jMapper.map(person, PersonDto.class);
 ```
 
-### How get `Person` object instance from `PersonDto` object instance?
+### How to get `Person` object instance from `PersonDto` object instance?
 ```
 PersonDto personDto = getPersonDto();
 SMapper jMapper = new SMapper();
@@ -40,6 +40,5 @@ Person person = jMapper.map(personDto, Person.class);
 ```
 
 ## Author
-Manoj Pawar
-Software Engineer at Virtusa Consutlting Services.
-Email:`mmpawar94@gmail.com`
+* Manoj Pawar, Software Engineer at Virtusa Consutlting Services.
+* Email:`mmpawar94@gmail.com`
